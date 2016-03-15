@@ -24,6 +24,7 @@ namespace TestWebApp.Controllers
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
         {
+            // Change 1
             UserManager = userManager;
             SignInManager = signInManager; 
         }
